@@ -76,7 +76,7 @@ bool DelayedCall::update(){
 	for(uint16_t i=0; i<last_index; i++)
 	{
 		Delay* my_delay = delays[i];
-		if(delay != NULL)
+		if(my_delay != NULL)
 		{	
 			elapsed_time = millis() - my_delay->start_time;
 			
