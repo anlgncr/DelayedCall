@@ -1,2 +1,2 @@
 # DelayedCall
-This library lets you delay funtion calls
+This library lets you delay function calls
