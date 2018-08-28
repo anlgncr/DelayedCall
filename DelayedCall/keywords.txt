@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For Tween
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DelayedCall	KEYWORD1
+Delay		KEYWORD1
+repeat_count	KEYWORD1
+total_time	KEYWORD1
+start_time	KEYWORD1
+function	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+add		KEYWORD2
+remove		KEYWORD2
+getIndex	KEYWORD2
+update		KEYWORD2
