@@ -13,8 +13,7 @@ DelayedCall::Delay* DelayedCall::create(void (*function)(void), uint32_t total_t
 	
 	Delay* my_delay = (Delay*)malloc(sizeof(Delay));
 	*my_delay = {function, total_time, repeat_count, false, millis()};
-	delays[last_index] = my_delay;
-	last_index++;
+	delays[last_index++] = my_delay;
 	
 	return my_delay;
 }
@@ -33,8 +32,7 @@ bool DelayedCall::add(Delay* my_delay){
 		return false;
 	
 	my_delay->isFinished = false;
-	delays[last_index] = my_delay;
-	last_index++;
+	delays[last_index++] = my_delay;
 	
 	return true;
 }
