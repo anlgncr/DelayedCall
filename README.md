@@ -1,2 +1,2 @@
 # DelayedCall
-You can call delayed functions in arduino
+Delay your functions
